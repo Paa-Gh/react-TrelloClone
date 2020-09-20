@@ -109,7 +109,7 @@ class TrelloActionButton extends Component {
         style={{color:"white", backgroundColor:"#5aac44", cursor: "pointer"}}>
         {buttonTitle}{" "}
         </button>
-        <Icon style={{marginLeft: 8, cursor: "pointer"}}>close</Icon>
+        <Icon onClick = {this.closeForm} style={{marginLeft: 8, cursor: "pointer"}}>close</Icon>
       </div>
     </div>
   )
